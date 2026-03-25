@@ -1,5 +1,14 @@
 let search = document.querySelectorAll('.search-box');
 
-document.querySelector('#search-icon').onClick = () => {
+document.querySelector('#search-icon').onclick = () => {
     search.classList.toggle('active');
+    cart.classList.remove('active');
+
+}
+
+let cart = document.querySelectorAll('.cart');
+
+document.querySelector('#cart-icon').onclick = () => {
+    cart.classList.toggle('active');
+    search.classList.remove('active');
 }
