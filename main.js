@@ -1,6 +1,13 @@
-let search = document.querySelectorAll('.search-box');
+// let search = document.querySelectorAll('.search-box');
 
-document.querySelector('#search-icon').onclick = () => {
+// document.querySelector('#search-icon').onclick = () => {
+//     search.classList.toggle('active');
+//     cart.classList.remove('active');
+// }
+
+let search = document.querySelector('.search-box');
+
+document.querySelector('#search-icon').onclick = () =>{
     search.classList.toggle('active');
     cart.classList.remove('active');
 
