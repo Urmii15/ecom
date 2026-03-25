@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 
@@ -24,31 +24,4 @@
 
   /* Box Shadow */
   --box-shadow: 2px 2px 10px 4px rgb(14 55 54 / 15%);
-=======
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-
-*{
-
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-    scroll-behavior: smooth;
-    scroll-padding-top: 2rem;
-}
-
-/* Some Variables */
-
-:root {
-  --main-color: #fda702;
-  --second-color: #ebeff2;
-  --text-color: #02171d;
-  --bg-color: #fff;
-
-  /* Box Shadow */
-  --box-shadow: 2px 2px 10px 4px rgb(14 55 54 / 15%);
->>>>>>> 1238c99d28e4f2d4ba61017199ee4a3695c9a2da
 }
