@@ -352,5 +352,15 @@ header{
 }
 
 .reviews-container{
-  
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.reviews-container .box{
+  padding: 10px;
+  border: 2px solid var(--text-color);
+  border-radius: 0.5rem;
+  text-align: center;
+  box-shadow: var(--box-shadow);
 }
