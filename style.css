@@ -233,3 +233,10 @@ header{
   right: 1rem;
   transition: 0.2s;
 }
+
+.home{
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+}
