@@ -22,8 +22,18 @@ document.querySelector('#user-icon').onclick = () => {
     user.classList.toggle('active');
     search.classList.remove('active');
     cart.classList.toggle('active');
-
 }
+
+
+// Navbar SCroll 
+let header = document.querySelector('header');
+
+window.addEventListener('scroll' , () =>{
+  header.classList.toggle('shadow' , window.scrollY > 0);
+});
+
+
+
 
 var swiper = new Swiper('.new-arrival', {
   spaceBetween: 20,
